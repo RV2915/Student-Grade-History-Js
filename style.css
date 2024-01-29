@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgb(32, 230, 32), #a4be9b);
+}
+
+.screen-body-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.app {
+    height: auto;
+    width: auto;
+}
+
+#showdata {
+    /* color: #fff; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+h1 {
+    font-size: 30px;
+    background: -webkit-linear-gradient(0deg, rgb(255, 255, 255)10%, #d0e6d3 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    height: 50px;
+    width: 388px;
+    /* background-color: red; */
+    text-align: center;
+    /* border-bottom: 2.5px solid rgb(59, 255, 59); */
+
+}
+
+input ::placeholder{
+    color: #f8f9fa;
+}
+
+input {
+    background-color: transparent;
+    border: 2.5px solid rgb(205, 204, 204);
+    text-transform: capitalize;
+    width: 45rem;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+}
+
+/* <!-- HTML !-->
+<button class="button-88" role="button">Button 88</button> */
+/* CSS */
+.button-16 {
+    margin-top: 18px;
+    width: 47%;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+}
+
+.button-16:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: #202124;
+}
+
+.button-16:focus {
+    border-color: #4285f4;
+    outline: none;
+}
